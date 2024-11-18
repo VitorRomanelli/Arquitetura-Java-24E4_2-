@@ -1,7 +1,9 @@
 Sistema de Gerenciamento de Filmes
+
 Este projeto é uma API REST desenvolvida em Spring Boot para gerenciar filmes, diretores e atores. A API permite criar, consultar, atualizar e excluir registros relacionados a essas entidades, além de oferecer suporte a edição especial de filmes.
 
 IMPORTANTE!
+
 O projeto possui um arquivo Loader.java que pré-carrega alguns registros de filmes, diretores, atores e edições especiais para o banco de dados.
 Este Loader lê um arquivo CSV que se encontra no diretório "src\main\resources" e será executado durante o build do projeto!
 
