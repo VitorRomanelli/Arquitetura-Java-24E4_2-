@@ -13,9 +13,9 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
             .info(new Info()
-                .title("API: locadora de filmes")
+                .title("API: Sistema de gerenciamento de filmes")
                 .version("1.0")
-                .description("API para gestão de filmes")
+                .description("API para gerenciamento de filmes")
                 .contact(new Contact()
                     .name("Equipe de Desenvolvimento")
                     .email("dev@infnet.com")));
